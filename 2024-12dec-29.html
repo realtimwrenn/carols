@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Christmas Mass Presentation</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<textarea data-template>
+					# Test Slide
+					This is a test slide to verify Reveal.js is functioning.
+					---
+					# Another Slide
+					Testing horizontal navigation.
+				</textarea>
+			</section>
+			<section data-markdown="2024-12dec-29.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n" data-charset="utf-8"></section>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+	<script>
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			plugins: [RevealMarkdown]
+		});
+	</script>
+</body>
+
+</html>
