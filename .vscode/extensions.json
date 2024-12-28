@@ -1,6 +1,5 @@
 {
 	"recommendations": [
-		"sonarsource.sonarlint-vscode",
 		"streetsidesoftware.code-spell-checker",
 		"cweijan.vscode-office",
 		"vscode-icons-team.vscode-icons",
